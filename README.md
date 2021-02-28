@@ -9,7 +9,7 @@ Based on [this article](https://raoulkramer.de/deploy-run-host-strapi-on-plesk-o
 - A domain
 - SSH access as root
 
-**Git setup will come later.**
+**For git setup, check original article.**
 
 ## Configure Strapi
 
@@ -89,7 +89,7 @@ Check "Allow local connections only" and validate.
 > **WARNING**
 > Strapi only supports Mysql >5.6, while Plesk provides 5.5. You must update it via https://support.plesk.com/hc/en-us/articles/213403429--How-to-upgrade-MySQL-5-5-to-5-6-5-7-or-MariaDB-5-5-to-10-x-on-Linux-.
 
-In the **File explorer**, delete `index.html` and your strapi files, but only:
+In the **File explorer**, delete `index.html` and upload your strapi files, but only:
 
 ```
 admin/ (if you customized the admin panel)
